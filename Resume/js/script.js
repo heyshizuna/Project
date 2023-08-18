@@ -102,7 +102,7 @@ let resumeButton = document.getElementById("resume-button");
 
 let opt = {
   margin: 0,
-  filename: "盧怡靜_應徵網頁設計師.pdf",
+  filename: "盧怡靜_應徵網頁設計.pdf",
   image: { type: "jpeg", quality: 0.98 },
   html2canvas: { scale: 4 },
   jsPDF: { format: "a4", orientation: "portrait" },
