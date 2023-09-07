@@ -82,3 +82,11 @@ function fadeout() {
   setInterval(loader, 2000);
 }
 window.onload = fadeout;
+
+const navLink = document.querySelectorAll(".navbar-link");
+
+function linkAction() {
+  const navMenu = document.querySelector(".navbar");
+  navMenu.classList.remove("active");
+}
+navLink.forEach((n) => n.addEventListener("click", linkAction));
