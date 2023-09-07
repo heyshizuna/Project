@@ -313,13 +313,13 @@ body.nav-active {
   margin-inline: auto;
 }
 .hero-banner .w-100 {
-  mask-image: url("/IMG/Blob.svg");
-  -webkit-mask-image: url("/IMG/Blog.svg");
-  mask-repeat: no-repeat;
+  /* mask-image: url("../IMG/blob.svg"); */
+  -webkit-mask-image: url("../IMG/Blog.svg");
+  /* mask-repeat: no-repeat; */
   -webkit-mask-repeat: no-repeat;
-  mask-position: center;
+  /* mask-position: center; */
   -webkit-mask-position: center;
-  mask-size: auto;
+  /* mask-size: auto; */
   -webkit-mask-size: auto;
 }
 .hero .shape {
