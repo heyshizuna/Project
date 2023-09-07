@@ -85,7 +85,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: url(/img/movies/bg-little-mermaid.jpg) no-repeat;
+  background: url(../img/Bg-little-mermaid.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   overflow: hidden;

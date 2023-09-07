@@ -9,10 +9,10 @@ closeV.onclick = () => {
   trailer.classList.remove("active");
 };
 
-function changeBg(bg, title) {
+function changeBg(Bg, title) {
   const banner = document.querySelector(".banner");
   const contents = document.querySelectorAll(".content");
-  banner.style.background = `url("img/movies/${bg}")`;
+  banner.style.background = `url("img/${Bg}")`;
   banner.style.backgroundSize = "cover";
   banner.style.backgroundPosition = "center";
 

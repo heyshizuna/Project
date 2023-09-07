@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>怡靜的作品集</title>
+    <meta name="title" content="我是怡靜，想為網頁設計做出貢獻的轉職女子">
+    <meta name="description" content="這是關於我以及我的作品">
+    <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Noto+Serif+TC:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preload" as="image" href="/IMG/hero-banner.jpg">
+    <link rel="preload" as="image" href="/IMG/Blog.svg">
+</head>
+
+<body>
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="/IMG/logo-dark.svg" width="64" height="24" alt="YiJing home">
+            </a>
+            <nav class="navbar" data-navrbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="/IMG/logo-light.svg" width="64" height="24" alt="YiJing home">
+                    </a>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                <ul class="navbar-list">
+                    <li><a href="#hero" class="navbar-link">首頁</a></li>
+                    <li><a href="#about" class="navbar-link">關於怡靜</a></li>
+                    <li><a href="#project" class="navbar-link">我的作品</a></li>
+                    <li><a href="#contact" class="navbar-link">與我聯繫</a></li>
+                </ul>
+                <div class="wrapper">
+                    <a href="mailto:shizuna.sugano@gmail.com" class="contact-link">shizuna.sugano@gmail.com</a>
+                    <a href="tel:0935692786" class="contact-link">0935-692786</a>
+                </div>
+                <ul class="social-list">
+                    <a href="https://twitter.com/@Shizuna_OuO" target="_blank" class="social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="https://www.facebook.com/Shizuna1223/" target="_blank" class="social-link">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/shizuna_ouo/" target="_blank" class="social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </ul>
+            </nav>
+            <button class="button nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+            <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+    <main>
+        <article>
+            <section id="hero" class="section hero" aria-label="home">
+                <div class="container">
+                    <figure class="hero-banner">
+                        <img src="IMG/banner.png" width="560" height="540" alt="YiJing" class="w-100" data-reveal="top">
+                        <img src="IMG/hero-shape.svg" width="203" height="91" alt="Change careers" class="shape"
+                            data-reveal="top" data-reveal-delay="0.25s">
+                    </figure>
+                    <div class="hero-content">
+                        <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">自學程式語言，力拚成為網頁設計師</h1>
+                        <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+                            你好，我是怡靜，魔羯座Ｏ型，對網頁設計充滿熱誠，希望能在這個領域發光發熱，讓自己的努力做出最大貢獻。</p>
+                        <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+                            <a href="#project" class="btn btn-primary">我的作品</a>
+                            <a href="#contact" class="btn btn-secondary">與我聯繫</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section about" aria-label="about">
+                <div class="container">
+                    <div class="wrapper">
+                        <div data-reveal="left">
+                            <h2 class="h2 section-title">關於我</h2>
+                            <p class="section-text">
+                                從小就對電腦及設計充滿興趣，在家人的鼓勵下決定轉職網頁設計，開始自學相關程式及軟體，在科技日新月異的時代爭取最好的進化，用自己的能力做出最大貢獻。
+                            </p>
+                        </div>
+                        <ul class="progress-list" data-reveal="right">
+                            <li class="progress-item">
+                                <div class="label-wrapper">
+                                    <p>Html / CSS / Javascript</p>
+                                    <span class="span">76 %</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-fill" style="width: 76%;background-color: #c7b1dd;"></div>
+                                </div>
+                            </li>
+                            <li class="progress-item">
+                                <div class="label-wrapper">
+                                    <p>Figma</p>
+                                    <span class="span">55 %</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-fill" style="width: 55%;background-color: #8caeec;"></div>
+                                </div>
+                            </li>
+                            <li class="progress-item">
+                                <div class="label-wrapper">
+                                    <p>Adobe Photoshop / Adobe Illustrator</p>
+                                    <span class="span">68 %</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-fill" style="width: 68%;background-color: #b0d4c1;"></div>
+                                </div>
+                            </li>
+                            <li class="progress-item">
+                                <div class="label-wrapper">
+                                    <p>Word / Excel / PowerPoint</p>
+                                    <span class="span">83 %</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-fill" style="width: 90%;background-color: #e3a6b6;"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="grid-list">
+                        <li data-reveal="bottom">
+                            <div class="about-card">
+                                <div class="card-icon">
+                                    <img src="/IMG/icon-1.svg" width="52" height="52" loading="lazy"
+                                        alt="web design icon">
+                                </div>
+                                <h3 class="h3 card-title">網頁設計</h3>
+                                <p class="card-text">使用Html、CSS、Javascript，可獨立完成切版，依照規劃設定完成頁面呈現。</p>
+                            </div>
+                        </li>
+                        <li data-reveal="bottom" data-reveal-delay="0.25s">
+                            <div class="about-card">
+                                <div class="card-icon">
+                                    <img src="/IMG/icon-2.svg" width="52" height="52" loading="lazy"
+                                        alt="mobile design icon">
+                                </div>
+                                <h3 class="h3 card-title">Figma UI設計</h3>
+                                <p class="card-text">使用Figma完成在桌機、平板及行動裝置上想要呈現的畫面。</p>
+                            </div>
+                        </li>
+                        <li data-reveal="bottom" data-reveal-delay="0.5s">
+                            <div class="about-card">
+                                <div class="card-icon">
+                                    <img src="/IMG/icon-3.svg" width="52" height="52" loading="lazy"
+                                        alt="web development icon">
+                                </div>
+                                <h3 class="h3 card-title">繪圖軟體</h3>
+                                <p class="card-text">使用Photoshop、Illustrator製作頁面設計、Banner、icon等平面影像。</p>
+                            </div>
+                        </li>
+                        <li data-reveal="bottom" data-reveal-delay="0.75s">
+                            <div class="about-card">
+                                <div class="card-icon">
+                                    <img src="/IMG/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                                </div>
+                                <h3 class="h3 card-title">文書處理</h3>
+                                <p class="card-text">基本文件製作，簡化資料並建立試算表，統整流程並繪製精美簡報。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="project" class="section project" aria-labelledby="project-label">
+                <div class="container">
+                    <div class="title-wrapper" data-reveal="top">
+                        <div>
+                            <h2 class="h2 section-title" id="project-label">我的作品</h2>
+                            <p class="section-text">Check out some of my latest projects with creative ideas.</p>
+                        </div>
+                        <a href="https://github.com/heyshizuna/Project" target="_blank" class="btn btn-secondary">View
+                            On Github</a>
+                    </div>
+                    <ul class="grid-list">
+                        <li>
+                            <div class="project-card project-card-1" style="background-color:#f8f5fb ;">
+                                <div class="card-content" data-reveal="left">
+                                    <p class="card-tag" style="color: #a07cc5;">Web Design</p>
+                                    <h3 class="h3 card-title">主題網站</h3>
+                                    <p class="card-text">最新消息輪播及各式菜色點選訂購，附上消費者評論及訂購選單。</p>
+                                    <a href="https://heyshizuna.github.io/Project/Food/index.html" target="_blank"
+                                        class="btn-text" style="color: #a07cc5;"><span class="span">See
+                                            Project</span>
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                                <figure class="card-banner" data-reveal="right">
+                                    <img src="/IMG/project-1.png" width="650" height="370" loading="lazy"
+                                        alt="Web Design" class="w-100">
+                                </figure>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-card project-card-2" style="background-color:#f1f5fd ;">
+                                <div class="card-content" data-reveal="right">
+                                    <p class="card-tag" style="color: #3f78e0;">Responsive Design</p>
+                                    <h3 class="h3 card-title">適應裝置設計</h3>
+                                    <p class="card-text">將設計頁面應用於各類型裝置並呈現。</p>
+                                    <a href="https://heyshizuna.github.io/Project/Resume/index.html" target="_blank"
+                                        class="btn-text" style="color: #3f78e0;"><span class="span">See
+                                            Project</span>
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                                <figure class="card-banner" data-reveal="left">
+                                    <img src="/IMG/project-2.png" width="650" height="367" loading="lazy"
+                                        alt="Mobile Design" class="w-100">
+                                </figure>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-card project-card-3" style="background-color:#f5faf7 ;">
+                                <div class="card-content" data-reveal="left">
+                                    <p class="card-tag" style="color: #7cb798;">Web Design</p>
+                                    <h3 class="h3 card-title">其他頁面設計</h3>
+                                    <p class="card-text">首頁、登入頁面及其他一頁式網站。</p>
+                                    <a href="https://heyshizuna.github.io/Project/Camping/index.html" target="_blank"
+                                        class="btn-text" style="color: #7cb798;"><span class="span">See
+                                            Project</span>
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                                <figure class="card-banner" data-reveal="right">
+                                    <img src="/IMG/project-3.png" width="650" height="367" loading="lazy"
+                                        alt="Web Design" class="w-100">
+                                </figure>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-card project-card-4" style="background-color:#fcf4f6 ;">
+                                <div class="card-content" data-reveal="right">
+                                    <p class="card-tag" style="color: #d16b86;">Mobile Design</p>
+                                    <h3 class="h3 card-title">行動裝置介面設計</h3>
+                                    <p class="card-text">使用Figma製作行動裝置適應頁面。</p>
+                                    <a href="https://www.figma.com/proto/UE4xMqeqKfkZR5brjX8ChZ/%E7%BE%8E%E8%A1%93%E9%A4%A8?page-id=0%3A1&type=design&node-id=2-2&viewport=404%2C204%2C0.39&t=ZJoX7ZHuCb0ebmVL-1&scaling=scale-down&starting-point-node-id=2%3A2&mode=design"
+                                        target="_blank" class="btn-text" style="color: #d16b86;"><span class="span">See
+                                            Project</span>
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                                <figure class="card-banner" data-reveal="left">
+                                    <img src="/IMG/project-4.png" width="620" height="370" loading="lazy"
+                                        alt="Mobile Design" class="w-100">
+                                </figure>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="contact" class="section contact" aria-label="contact">
+                <div class="container">
+                    <div class="contact-card">
+                        <div class="contact-content" data-reveal="left">
+                            <div class="card-icon">
+                                <img src="/IMG/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+                            </div>
+                            <h2 class="h2 section-title">歡迎與我聯繫！</h2>
+                            <p class="section-text">感謝您的參閱！如果您覺得怡靜不錯，歡迎來信！我將帶著誠摯的心以及努力不懈的精神，為貴公司做出最大的貢獻！</p>
+                        </div>
+                        <form action="" class="contact-form" data-reveal="right" enctype="text/plain"
+                            accept-charset="utf-8">
+                            <div class="input-wrapper">
+                                <input id="nameText" type="text" name="name" placeholder="Name *" required
+                                    class="input-field">
+                                <input id="emailText" type="email" name="email_address" placeholder="Email *" required
+                                    class="input-field">
+                            </div>
+                            <textarea id="bodyText" name="message" placeholder="Message *" required
+                                class="input-field"></textarea>
+                            <button id="mailto" type="submit" class="btn btn-secondary" onclick="test();">送出訊息</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">© 2023 YiJing Lu. All rights reserved.</p>
+            <ul class="social-list">
+                <a href="https://twitter.com/@Shizuna_OuO" target="_blank" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a href="https://www.facebook.com/Shizuna1223/" target="_blank" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/shizuna_ouo/" target="_blank" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </ul>
+        </div>
+    </footer>
+    <script src="JS/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
