@@ -60,40 +60,46 @@
 
         .hand {
             position: absolute;
-            transform-origin: right center;
-            background: linear-gradient(180deg, #fbf9fa 0%, #1d1b1c 47%, #1d1b1c 53%, #b3b3b3 100%);
-            border: 0.5px solid #423e3f;
+            -webkit-filter: drop-shadow(3px 3px 6px rgba(20, 20, 20, 0.4));
+            filter: drop-shadow(3px 3px 6px rgba(20, 20, 20, 0.4));
 
         }
 
         .hour-hand {
-            top: 47%;
-            left: 65px;
-            transform: translateY(-50%) rotate(90deg);
-            width: 30%;
-            height: 9px;
-            border-radius: 3px;
-            z-index: 2;
-        }
-
-        .min-hand {
-            top: 47%;
-            left: 34px;
-            transform: translateY(-50%) rotate(90deg);
-            width: 40%;
-            height: 8px;
-            border-radius: 3px;
+            background-image: url(./hour.png);
+            background-size: cover;
+            width: 14px;
+            height: 100px;
+            top: 24%;
+            left: 157px;
+            transform: translateY(-50%) rotate(0deg);
+            transform-origin: center 74px;
             z-index: 1;
         }
 
+        .min-hand {
+            background-image: url(./min.png);
+            background-size: cover;
+            width: 12px;
+            height: 142px;
+            top: 13%;
+            left: 152px;
+            transform: translateY(-50%) rotate(0deg);
+            transform-origin: center 112px;
+            z-index: 2;
+        }
+
         .second-hand {
-            top: 48%;
-            left: 34px;
-            transform: translateY(-50%) rotate(90deg);
-            width: 40%;
-            height: 6px;
-            border-radius: 3px;
+            background-image: url(./second.png);
+            background-size: cover;
+            width: 12px;
+            height: 166px;
+            top: 9%;
+            left: 156px;
+            transform: translateY(-50%) rotate(0deg);
+            transform-origin: center 126px;
             z-index: 3;
+
         }
 
         .date {
@@ -140,9 +146,9 @@
             let ss = document.querySelector('.second-hand');
             let date = document.querySelector('.date');
 
-            let hhgo = ((hour % 12) * 30) + (mins * 0.5) + 90;
-            let mmgo = (mins * 6) + (sec * 0.1) + 90;
-            let ssgo = (sec * 6) + 90;
+            let hhgo = ((hour % 12) * 30) + (mins * 0.5);
+            let mmgo = (mins * 6) + (sec * 0.1);
+            let ssgo = (sec * 6);
 
             hh.style.transform = `rotate(${hhgo}deg)`;
             mm.style.transform = `rotate(${mmgo}deg)`;
